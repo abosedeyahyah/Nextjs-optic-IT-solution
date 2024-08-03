@@ -7,11 +7,11 @@ export default function AchievementsPage() {
         className="bg-white py-12"
         style={{ backgroundImage: "url('/Images/Camera-img.png')" }}
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 justify-center">
           <h2 className="text-3xl font-bold text-center mb-8 text-white">
             Our Core Expertise
           </h2>
-          <p className="text-2lg text-center mb-8 text-white">
+          <p className=" text-lg md:text-xl max-w-2xl mb-8 text-white text-center mx-auto">
             At OpticsIt Solutions, we have the skilled professionals to excel in
             the following Information and Communication Technology domains.
           </p>
@@ -71,7 +71,7 @@ export default function AchievementsPage() {
           </div>
         </div>
       </section>
-      <section className="bg-blue-900 text-white py-12">
+      <section className="bg-[#08215C] text-[#FFFFFF] py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center">
             <div className="lg:w-1/2 lg:pl-8 mt-8 lg:mt-0">
@@ -79,10 +79,12 @@ export default function AchievementsPage() {
               <h3 className="text-2xl font-semibold mb-4">Our Achievements</h3>
               <p className="mb-6">
                 We are proud of our track record in delivering quality IT
-                services. 
+                services.
               </p>
-              <p>Our commitment to excellence has earned us the trust
-              of numerous clients.</p>
+              <p>
+                Our commitment to excellence has earned us the trust of numerous
+                clients.
+              </p>
             </div>
             <div className="lg:w-1/2">
               <img
@@ -92,7 +94,7 @@ export default function AchievementsPage() {
               />
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 mt-40 border-right: 1px solid ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 mt-40 divide-x-2">
             <div className="text-center">
               <h4 className="text-4xl font-bold">2016</h4>
               <p>Founded</p>
