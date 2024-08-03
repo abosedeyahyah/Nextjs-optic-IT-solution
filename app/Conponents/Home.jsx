@@ -7,7 +7,7 @@ export default function Home() {
       <main className="">
         <div
           className="relative bg-cover bg-center h-screen"
-          style={{ backgroundImage: "url('/Images/image1.png')" }}
+          style={{ backgroundImage: "url('/Images/Homebackground-img.png')" }}
         >
           <SolutionPage />
           <div className="flex flex-col items-start justify-center h-full space-y-4 text-white px-4 text-left pl-10">
