@@ -1,8 +1,8 @@
 import React from "react";
 export default function SolutionPage() {
   return (
-    <nav className="bg-white py-2 rounded-full justify-center px-10 relative top-4 max-w-[1240px] mx-auto">
-      <div className="max-w-7xl mx-auto  flex justify-between items-center">
+    <nav className="bg-white py-2 rounded-full justify-center px-6 relative top-4 max-w-[1240px] mx-auto ">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div className="text-black">
           <img
             src="/Images/nav-image.png"

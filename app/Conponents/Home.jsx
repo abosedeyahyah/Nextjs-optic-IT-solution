@@ -7,7 +7,7 @@ export default function Home() {
       <main className="">
         <div
           className="relative bg-cover bg-center h-screen"
-          style={{ backgroundImage: "url('/Images/image1.png')" }}
+          style={{ backgroundImage: "url('/Images/Homebackground-img.png')" }}
         >
           <SolutionPage />
           <div className="flex flex-col items-start justify-center h-full space-y-4 text-white px-4 text-left pl-10">
@@ -24,14 +24,24 @@ export default function Home() {
               networking, consultancy, and training. Let’s enhance your IT
               infrastructure together.
             </p>
-            <div className="mt-2 ml-4 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+            <div className="mt-2 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
               <a
                 href="#learn-more"
                 className="px-6 py-3 bg-blue-600 rounded-full"
               >
                 Learn More
-              </a>
-              {/* <a href="#chat-us" className="px-6 py-3 bg-green-600 rounded-full">Chat Us</a> */}
+              </a>   <a
+          href="#chat"
+          className="text-white bg-green-600 px-6  p-3 rounded-full flex items-center gap-2"
+        >
+          <img
+            src="/Images/chat-img.png"
+            alt=""
+            srcset=""
+            className="w-5 h-5"
+          />
+          Chat Us
+        </a>
             </div>
           </div>
         </div>

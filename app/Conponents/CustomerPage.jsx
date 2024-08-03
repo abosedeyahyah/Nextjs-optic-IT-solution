@@ -67,7 +67,7 @@ export default function CustomerPage() {
      </div>
       </section>
       <section className="bg-white py-12 ">
-        <div className="flex justify-between px-6 mx-auto">
+        <div className="flex flex-col lg:flex-row justify-between px-6 mx-auto">
           <div>
             <h2 className=" mb-4 text-4xl md:text-[40px] font-bold">
               Ready to Optimize Your IT?
