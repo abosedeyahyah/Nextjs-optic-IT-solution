@@ -5,7 +5,7 @@ export default function AchievementsPage() {
     <div className="">
       <section
         className="bg-white py-12"
-        style={{ backgroundImage: "url('/Images/Camera-img.png')" }}
+        style={{ backgroundImage: "url('/Images/optic-img.png')" }}
       >
         <div className="container mx-auto px-4 justify-center">
           <h2 className="text-3xl font-bold text-center mb-8 text-white">

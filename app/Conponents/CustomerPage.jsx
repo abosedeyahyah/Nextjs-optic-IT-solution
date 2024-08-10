@@ -69,10 +69,10 @@ export default function CustomerPage() {
       <section className="bg-white py-12 ">
         <div className="flex flex-col lg:flex-row justify-between px-6 mx-auto">
           <div>
-            <h2 className=" mb-4 text-4xl md:text-[40px] font-bold">
+            <h2 className=" mb-4 text-3xl md:text-[40px] font-bold">
               Ready to Optimize Your IT?
             </h2>
-            <p className="mb-8 text-4xl md:text-[20px] font-normal">
+            <p className="mb-8 text-xl md:text-[15px] font-normal">
               Contact us today to learn more about our services.
             </p>
           </div>
